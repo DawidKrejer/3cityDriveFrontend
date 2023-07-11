@@ -1,0 +1,76 @@
+/* HomePage.css */
+body {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.menu-bar {
+  background-color: #1988f7;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.item {
+  color: white;
+  background-color: transparent;
+  font-size: 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 14px 20px;
+}
+
+.item.title {
+  font-weight: 600;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff9800;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.content {
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.callToAction {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.image {
+  max-width: 50%;
+  margin-top: 20px;
+}

@@ -1,0 +1,23 @@
+.about-container {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .about-heading {
+    font-size: 54px;
+    margin-bottom: 20px;
+  }
+
+  .about-list {
+    list-style-type: disc;
+    text-align: left;
+  }
+
+  .about-item {
+    font-size: 96px;
+  }

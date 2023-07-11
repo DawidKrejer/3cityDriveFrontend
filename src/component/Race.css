@@ -1,0 +1,174 @@
+/* Race.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    color: #fff;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    color: #000;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    color: #fff;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table thead th {
+    background-color: #cf9157;
+    color: #fff;
+  }
+  
+  .table tbody td {
+    color: #000;
+  }
+  
+  .link-driver {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #030303;
+    font-weight: bold;
+    background-color: #28a745;
+  }
+  
+  .link-driver:hover {
+    color: #ccc;
+  }
+  
+  .btn-edit {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-edit:hover {
+    background-color: #c82333;
+    color: #fff;
+  }
+  
+  .btn-delete {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .btn-delete:hover {
+    background-color: #e0a800;
+    color: #000;
+  }
+  
+  .btn-driver {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-driver:hover {
+    background-color: #218838;
+    color: #fff;
+  }
+  
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-item button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-item button:hover {
+    color: #ccc;
+  }
+  
+  .menu-bar {
+    background-color: #1988f7;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+  }
+  
+  .item.title {
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  

@@ -183,7 +183,7 @@ function DriverCrud() {
             <th scope="col">Nazwa Kierowcy</th>
             <th scope="col">Drużyna</th>
             <th scope="col">Opcje</th>
-            <th scope="col">Zaznacz</th>
+            <th scope="col">Zaznacz uczestników</th>
           </tr>
         </thead>
         <tbody>

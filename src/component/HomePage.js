@@ -13,6 +13,12 @@ function HomePage() {
         <Link to="/about" className="link">
           O nas
         </Link>
+        <Link to="/login" className="link">
+          Logowanie
+        </Link>
+        <Link to="/register" className="link">
+          Register
+        </Link>
       </nav>
       <div className="content">
         <h1 className="heading">Witaj na 3CITY DRIVE CHALLENGE!</h1>

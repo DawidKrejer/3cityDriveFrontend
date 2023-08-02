@@ -1,6 +1,6 @@
 /* HomePage.css */
 body {
-  background-color: #333;
+  background-color: #232323;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 .menu-bar {
-  background-color: #1988f7;
+  background-color: #c62828;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ body {
 .link {
   text-decoration: none;
   color: #fff;
-  background-color: #ff9800;
+  background-color: #f44336;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
@@ -55,13 +55,11 @@ body {
 }
 
 .heading {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .description {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .callToAction {

@@ -5,6 +5,8 @@ import DriverCrud from "./component/DriverCrud";
 import Race from "./component/Race";
 import About from "./component/About";
 import RaceDetails from "./component/RaceDetails";
+import Login from './component/Login';
+import Register from './component/Register';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/race" element={<Race />} />
         <Route path="/about" element={<About />} />
         <Route path="/race/:id" element={<RaceDetails />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
